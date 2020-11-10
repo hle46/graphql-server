@@ -1,8 +1,8 @@
 import json
 
-from graphql.error import GraphQLError
-from graphql.execution import ExecutionResult
-from graphql.language.location import SourceLocation
+from graphql2.error import GraphQLError
+from graphql2.execution import ExecutionResult
+from graphql2.language.location import SourceLocation
 
 from graphql_server import (
     HttpQueryError,

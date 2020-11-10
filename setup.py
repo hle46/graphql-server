@@ -1,9 +1,9 @@
 from setuptools import setup, find_packages
 
-required_packages = ["graphql-core>=2.1,<3", "promise"]
+required_packages = ["graphql-core2", "promise"]
 
 setup(
-    name="graphql-server-core",
+    name="graphql-server-core1",
     version="1.1.3",
     description="GraphQL Server tools for powering your server",
     long_description=open("README.md").read(),

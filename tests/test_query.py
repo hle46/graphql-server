@@ -1,6 +1,6 @@
 import json
 
-from graphql.error import GraphQLError
+from graphql2.error import GraphQLError
 
 from graphql_server import (
     HttpQueryError,

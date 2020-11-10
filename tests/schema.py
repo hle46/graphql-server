@@ -1,11 +1,11 @@
-from graphql.type.definition import (
+from graphql2.type.definition import (
     GraphQLArgument,
     GraphQLField,
     GraphQLNonNull,
     GraphQLObjectType,
 )
-from graphql.type.scalars import GraphQLString
-from graphql.type.schema import GraphQLSchema
+from graphql2.type.scalars import GraphQLString
+from graphql2.type.schema import GraphQLSchema
 
 
 def resolve_error(*_args):

@@ -12,11 +12,11 @@ import json
 from collections import namedtuple
 
 import six
-from graphql import get_default_backend
-from graphql.error import format_error as default_format_error
-from graphql.execution import ExecutionResult
-from graphql.execution.executors.sync import SyncExecutor
-from graphql.type import GraphQLSchema
+from graphql2 import get_default_backend
+from graphql2.error import format_error as default_format_error
+from graphql2.execution import ExecutionResult
+from graphql2.execution.executors.sync import SyncExecutor
+from graphql2.type import GraphQLSchema
 from promise import Promise, is_thenable
 
 from .error import HttpQueryError
@@ -32,7 +32,7 @@ except ImportError:  # pragma: no cover (Python < 3.3)
 if False:  # pragma: no cover
     # flake8: noqa
     from typing import Any, Callable, Dict, List, Optional, Type, Union
-    from graphql import GraphQLBackend
+    from graphql2 import GraphQLBackend
 
 
 __all__ = [
